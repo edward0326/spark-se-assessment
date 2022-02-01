@@ -2,7 +2,7 @@ import os
 from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
 
-from project import app, db
+from project.server import app, db
 
 # Initializing the manager
 manager = Manager(app)
