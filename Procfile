@@ -1,4 +1,4 @@
-web: gunicorn --chdir /Users/EdwardChien/Documents/GitHub/spark-se-assessment/project/server init:app
+web: gunicorn --chdir project/server/ __init__:app
 heroku ps:scale web=1
 
 
