@@ -1,7 +1,7 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 postgres_local_base = 'postgres://'
-database_name = 'diagnostic'
+database_name = 'DATABASE_URL'
 
 
 class BaseConfig:
